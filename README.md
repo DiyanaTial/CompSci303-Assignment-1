@@ -4,15 +4,31 @@
 This C++ program reads data from an input file into a one-dimensional array and performs various operations on the array as described in the assignment.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Instructions](#instructions)
+- [Setup](#setup)
+- [Visual Studio on Mac](#visual-studio-on-mac)
+- [Compilation and Execution](#compilation-and-execution)
 - [Usage](#usage)
 - [Functions](#functions)
 - [Error Handling](#error-handling)
 - [Contributing](#contributing)
 - [License](#license)
   
-### Installation
+## Instructions
+
+### Setup
+1. Clone this repository to your local machine.
+2. Ensure you have a C++ compiler installed on your system.
+3. If you're using Visual Studio on Mac and encounter linker errors, follow the next step.
 To run this program, follow these steps:
+
+### Visual Studio on Mac
+If you're using Visual Studio on Mac and encounter linker errors, follow these steps:
+
+1. Uncomment the line `#include "functions.cpp"` in the `main.cpp` file.
+2. Comment out the line `#include "functions.h"` in the `main.cpp` file.
+
+### Compilation and Execution
 1. Clone this repository to your local machine
 2. Compile the 'main.cpp' file using a C++ compiler.
 ```
@@ -20,7 +36,7 @@ g++ main.cpp -o program
 ```
 3. Run the compiled executable.
 ```
-./prgram
+./program
 ```
 ### Usage
 Once the program is running, you will be prompted to enter the filename of the input file containing the data. After reading the data, you can choose from various operations to perform on the array.
