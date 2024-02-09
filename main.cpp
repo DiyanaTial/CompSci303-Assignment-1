@@ -155,14 +155,16 @@ int main() {
         }
         // Close the file
         inFile.close();
-    } 
+    }
     // catch all exceptions
     catch (const runtime_error &e) {
         cout << e.what() << endl;
-    } 
+    }
+
     catch (const bad_alloc &e) {
         cout << "Failed to allocate memory for the array." << endl;
-    } 
+    }
+
     catch (...) {
         cout << "An unexpected error occurred." << endl;
     }
