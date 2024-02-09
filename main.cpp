@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include "functions.cpp" // I am using MacBook and Visual Studio on Mac needs this include "functions.cpp" to run the code or it gives me linker error.
-// Please uncomment #include "functions.h" for code to run and comment out #include "functions.cpp".
-//#include "functions.h" 
+//#include "functions.cpp" // I am using MacBook and Visual Studio on Mac needs this include "functions.cpp" to run the code or it gives me linker error.
+// Please comment #include "functions.h" for code to run and uncomment out #include "functions.cpp" if needed.
+#include "functions.h" 
 using namespace std;
 
 int main() {
