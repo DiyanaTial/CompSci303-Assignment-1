@@ -22,9 +22,6 @@ This C++ program implements a stack data structure using a custom `Stack` class.
 g++ main.cpp -o program
 ```
 2. Run the compiled executable.
-```
-./program
-```
 
 ### Usage
 Upon running the program, follow these steps:
