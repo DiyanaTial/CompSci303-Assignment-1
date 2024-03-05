@@ -20,7 +20,7 @@ This C++ program implements a stack data structure using a custom `Stack` class.
 1. Compile the program using a C++ compiler.
 
 g++ main.cpp -o program
-```
+
 2. Run the compiled executable.
 
 ### Usage
